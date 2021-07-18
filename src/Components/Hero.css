@@ -1,0 +1,32 @@
+
+.hero {
+   
+    width: 100%;
+    min-height: 100vh;
+    background: radial-gradient(
+      ellipse at left bottom,
+      rgba(189, 184, 122, 0.938) 0%,
+      rgba(114, 96, 148, 0.9) 50%,
+      rgba(194, 172, 132, 0.9) 100%
+    );
+  }
+  
+  .hero nav {
+    background: black;
+    width: 100%;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .hero nav h2 {
+    color: #fff;
+  }
+  
+  .hero nav button {
+    width: 86px;
+    padding: 8px 0;
+    background: lightpink;
+  }
+  

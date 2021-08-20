@@ -26,7 +26,7 @@ function Login (props)  {
           onChange={(e) => setEmail(e.target.value)}
         />
         <p className="errorMsg"> {emailError}</p>
-        <label>password</label>
+        <label>Password</label>
         <input
           type="password"
           required
@@ -39,7 +39,7 @@ function Login (props)  {
             <>
               <button onClick={handleLogin}>Sign in</button>
               <p>
-                Don't have an account ?
+                Don't have an account?
                 <span onClick={() => setHasAccount(!hasAccount)}>Sign up</span>
               </p>
             </>

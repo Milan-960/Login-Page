@@ -9,7 +9,7 @@ const Hero = ({ handleLogout }) => {
     <section className="hero">
       <nav>
         <h2>M-GYM</h2>
-        <h2>We are Gald to see you!</h2>
+        <h2>We are Gald to see you here!</h2>
         <button onClick={handleLogout}> LogOut </button>
       </nav>
     </section>
